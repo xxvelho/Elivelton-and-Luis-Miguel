@@ -3,7 +3,7 @@
     
     <agent img="tresCoracoes.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
       <doisCoracoes img="doisCoracoes.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
-      <umCoracao img="umCoracao.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:3" touch="doisCoracoes"/>
+      <umCoracao img="umCoracao.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:2" touch="doisCoracoes"/>
     </agent>
  
     <agent img="selecao-inv.png" x="350" y="270" width="30" height="30" on-touch="erro1">
@@ -30,8 +30,8 @@
     
   </page>
     
-  <page background="over.png">
-      <agent img="over.png" x="0" y="0" width="500" height="500">
+  <page background=",">
+      <agent img="menu.png" x="0" y="0" width="500" height="500">
   </page>
 
     
