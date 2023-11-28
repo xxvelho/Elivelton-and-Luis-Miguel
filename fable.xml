@@ -31,9 +31,9 @@
   </page>
     
   <page background="menu.png">
-    <agent text="FASE 1" color="darkblue" x="20" y="400" on-touch="_GOTO_PAGE:2"/>
-    <agent text="FASE 2" color="darkblue" x="20" y="360" on-touch="_GOTO_PAGE:3" />
-    <agent text="FASE 3" color="darkblue" x="20" y="320" on-touch="_GOTO_PAGE:4" />
+    <agent text="FASE 1" color="white" x="20" y="400" on-touch="_GOTO_PAGE:2"/>
+    <agent text="FASE 2" color="white" x="20" y="360" on-touch="_GOTO_PAGE:2" />
+    <agent text="FASE 3" color="white" x="20" y="320" on-touch="_GOTO_PAGE:2" />
     
   </page>
 
