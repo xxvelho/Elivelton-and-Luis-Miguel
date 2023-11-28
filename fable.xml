@@ -1,6 +1,7 @@
 <fable>
   <page background="bg.png">
-      <agent img="bg.png" x="0" y="0" width="500" height="500" on-touch="fim">
+    
+    <agent img="bg.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:2">
       <fim img="over.png" x="0" y="0" touch="fim"/>
     </agent>
 
