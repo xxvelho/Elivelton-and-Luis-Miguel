@@ -2,7 +2,9 @@
   <page background="bg.png">
     
     <agent img="bg.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
-    <doisCoracoes tou/>
+      <doisCoracoes touch="doisCoracoes">
+          
+      </doisCoracoes>
       <fim img="over.png" x="0" y="0" touch="fim"/>
     </agent>
 
