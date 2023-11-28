@@ -1,9 +1,9 @@
 <fable>
   <page background="menu.png">
-    <agent text="Jogo " color="white" x="190" y="300" font-size="45"/>
-    <agent text="FASE 1" color="white" x="190" y="300" font-size="45" on-touch="_GOTO_PAGE:2"/>
-    <agent text="FASE 2" color="white" x="190" y="260" font-size="45" on-touch="_GOTO_PAGE:2" />
-    <agent text="FASE 3" color="white" x="190" y="220" font-size="45" on-touch="_GOTO_PAGE:2" />
+    <agent text="Jogo dos 7 Erros" color="white" x="100" y="450" font-size="35"/>
+    <agent text="FASE 1" color="white" x="190" y="320" font-size="45" on-touch="_GOTO_PAGE:2"/>
+    <agent text="FASE 2" color="white" x="190" y="250" font-size="45" on-touch="_GOTO_PAGE:2" />
+    <agent text="FASE 3" color="white" x="190" y="200" font-size="45" on-touch="_GOTO_PAGE:2" />
     
   </page>
   
