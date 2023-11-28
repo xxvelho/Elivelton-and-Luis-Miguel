@@ -30,7 +30,7 @@
     
   </page>
     
-  <page background=",">
+  <page background="menu.png">
       <agent img="menu.png" x="0" y="0" width="500" height="500">
   </page>
 
