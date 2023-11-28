@@ -5,7 +5,9 @@
     <agent img="coração.png" x="208" y="425" width="83" height="67"/>
     <agent img="coração.png" x="369" y="425" width="83" height="67" on-touch="_GOTO_PAGE:2"/>
     
-
+    <agent img="bg.png" x="0" y="0" width="500" height="500" on-touch="fim">
+      < img="selecao.png" x="350" y="270" touch="fim"/>
+    </agent>
     <agent img="selecao-inv.png" x="350" y="270" width="30" height="30" on-touch="erro1">
       <erro1 img="selecao.png" x="350" y="270" touch="erro1"/>
     </agent>
