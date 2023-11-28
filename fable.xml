@@ -36,7 +36,10 @@
     </agent>
     
   </page>
-    
+
+  <page background="over.png">
+    <agent img="over.png" x="20" y="320" on-touch="_GOTO_PAGE:2"/>
+  </page>
 
 
     
