@@ -9,13 +9,13 @@
       <erro1 img="selecao.png" color="black" x="350" y="270" touch="erro1"/>
     </agent>
     <agent img="selecao-inv.png" x="425" y="229" width="30" height="30" on-touch="erro2">
-      <erro2 img="selecao.png" color="black" x="350" y="270" touch="erro2"/>
+      <erro2 img="selecao.png" color="black" x="425" y="229" touch="erro2"/>
     </agent>
     <agent img="selecao-inv.png" x="287" y="65" width="30" height="30" on-touch="erro3">
-      <erro3 img="selecao.png" color="black" x="350" y="270" touch="erro3"/>
+      <erro3 img="selecao.png" color="black" x="287" y="65" touch="erro3"/>
     </agent>
     <agent img="selecao-inv.png" x="354" y="110" width="30" height="30" on-touch="erro4">
-      <erro4 img="selecao.png" color="black" x="350" y="270" touch="erro4"/>
+      <erro4 img="selecao.png" color="black" x="354" y="110" touch="erro4"/>
     </agent>
     <agent img="selecao-inv.png" x="312" y="225" width="30" height="30" on-touch="erro5">
       <erro5 img="selecao.png" color="black" x="350" y="270" touch="erro5"/>
