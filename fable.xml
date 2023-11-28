@@ -1,6 +1,6 @@
 <fable>
-    <page background="menu'.png">
-      <agent img="over.png" x="0" y="0" width="500" height="500">
+  <page background="menu.png">
+      <agent text="olA">
   </page>
   
     
