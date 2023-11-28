@@ -12,7 +12,7 @@
       <erro2 img="selecao.png" color="black" x="425" y="229" touch="erro2"/>
     </agent>
     <agent img="selecao-inv.png" x="287" y="65" width="30" height="30" on-touch="erro3">
-      <erro3 img="selecao.png" color="black" x="287" y="65" touch="erro3"/>
+      <erro3 img="selecao.png"  x="287" y="65" touch="erro3"/>
     </agent>
     <agent img="selecao-inv.png" x="354" y="110" width="30" height="30" on-touch="erro4">
       <erro4 img="selecao.png" color="black" x="354" y="110" touch="erro4"/>
