@@ -29,8 +29,10 @@
     
   </page>
     
-    <page background="over.png">
-    </page>
+  <page background="over.png">
+      <agent img="coração.png" x="100" y="100">
+  
+  </page>
 
 
 
