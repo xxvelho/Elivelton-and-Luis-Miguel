@@ -2,7 +2,7 @@
   <page background="tresCoracoes.png">
     
     <agent img="tresCoracoes.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
-      <doisCoracoes img="doisCoracoes.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCorac"/>
+      <doisCoracoes img="doisCoracoes.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
       <umCoracao img="umCoracao.png" x="0" y="0" width="500" height="500" on-touch="fim" touch="doisCoracoes"/>
       <fim img="over.png" x="0" y="0" touch="fim"/
     </agent>
