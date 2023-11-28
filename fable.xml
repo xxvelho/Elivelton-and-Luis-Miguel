@@ -1,11 +1,4 @@
 <fable>
-  <page background="menu.png">
-      
-      <agent text="olA" x="0" y="0" color="re">
-  
-  </page>
-  
-    
   <page background="tresCoracoes.png">
     
     <agent img="tresCoracoes.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
@@ -41,4 +34,7 @@
       <agent img="over.png" x="0" y="0" width="500" height="500">
   </page>
 
+    <page background="menu.png".png">
+      <agent img="over.png" x="0" y="0" width="500" height="500">
+   </page>
 </fable>
