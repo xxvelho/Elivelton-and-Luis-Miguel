@@ -1,151 +1,119 @@
 <fable>
-  
-  <page background="menu.png">
-    <agent text="Jogo dos 7 Erros" color="white" x="100" y="450" font-size="35"/>
-    <agent text="FASE 1" color="white" x="190" y="320" font-size="45" on-touch="_GOTO_PAGE:2"/>
-    <agent text="FASE 2" color="white" x="190" y="250" font-size="45" on-touch="_GOTO_PAGE:3" />
-    <agent text="FASE 3" color="white" x="190" y="180" font-size="45" on-touch="_GOTO_PAGE:4" />
-    
-  </page>
-    
-  <page background="over.png">
-    <agent img="FASE1a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
-      <doisCoracoes img="FASE1b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
-      <umCoracao img="FASE1c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
-    </agent>
-
-    <agent img="selecao-inv.png" x="369" y="425" width="80" height="67" drop-zone="restore"> 
-    	
-      <restore img="FASE1a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes"/>
-      <doisCoracoes img="FASE1b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
-      <umCoracao img="FASE1c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
-    </agent>
-
-    <agent img="coração.png" x="208" y="425" width="83" height="67" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
-    	
-      <lived x="-5000" />
-    </agent> 
-    
- 
-    <agent img="selecao-inv.png" x="350" y="270" width="30" height="30" on-touch="erro1">
-      <erro1 img="selecao.png" x="350" y="270" touch="erro1"/>
-    </agent>
-    <agent img="selecao-inv.png" x="425" y="229" width="30" height="30" on-touch="erro2">
-      <erro2 img="selecao.png" x="425" y="229" touch="erro2"/>
-    </agent>
-    <agent img="selecao-inv.png" x="287" y="65" width="30" height="30" on-touch="erro3">
-      <erro3 img="selecao.png"  x="287" y="65" touch="erro3"/>
-    </agent>
-    <agent img="selecao-inv.png" x="354" y="110" width="30" height="30" on-touch="erro4">
-      <erro4 img="selecao.png" x="354" y="110" touch="erro4"/>
-    </agent>
-    <agent img="selecao-inv.png" x="312" y="225" width="30" height="30" on-touch="erro5">
-      <erro5 img="selecao.png" x="312" y="225" touch="erro5"/>
-    </agent>
-    <agent img="selecao-inv.png" x="465" y="330" width="30" height="30" on-touch="erro6">
-      <erro6 img="selecao.png" x="465" y="330" touch="erro6"/>
-    </agent>
-    <agent img="selecao-inv.png" x="283" y="96" width="30" height="30" on-touch="erro7">
-      <erro7 img="selecao.png" x="283" y="96" touch="erro7"/>
-    </agent>
-
-    <agent img="menu-button.png" x="10" y="5" width="80" height="40" on-touch="_GOTO_PAGE:1"></agent>
-
-    
-  </page>
-
-  
-
-  <page background="over.png">
-    
-    <agent img="FASE2a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
-      <doisCoracoes img="FASE2b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
-      <umCoracao img="FASE2c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
-    </agent>
-
-    <agent img="selecao-inv.png" x="369" y="425" width="80" height="67" drop-zone="restore"> 
-    	
-      <restore img="FASE2a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes"/>
-      <doisCoracoes img="FASE2b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
-      <umCoracao img="FASE2c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
-    </agent>
-
-    <agent img="coração.png" x="208" y="425" width="83" height="67" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
-    	
-      <lived x="-5000" />
-    </agent> 
- 
-    <agent img="selecao-inv.png" x="310" y="330" width="30" height="30" on-touch="erro1">
-      <erro1 img="selecao-roxo.png" x="310" y="330" touch="erro1"/>
-    </agent>
-    <agent img="selecao-inv.png" x="360" y="300" width="30" height="30" on-touch="erro2">
-      <erro2 img="selecao-roxo.png" x="360" y="300" touch="erro2"/>
-    </agent>
-    <agent img="selecao-inv.png" x="340" y="260" width="30" height="30" on-touch="erro3">
-      <erro3 img="selecao-roxo.png"  x="340" y="260" touch="erro3"/>
-    </agent> 
-    <agent img="selecao-inv.png" x="275" y="220" width="30" height="30" on-touch="erro4">
-      <erro4 img="selecao-roxo.png" x="275" y="220" touch="erro4"/>
-    </agent>
-    <agent img="selecao-inv.png" x="420" y="180" width="30" height="30" on-touch="erro5">
-      <erro5 img="selecao-roxo.png" x="420" y="180" touch="erro5"/>
-    </agent>
-    <agent img="selecao-inv.png" x="480" y="245" width="30" height="30" on-touch="erro6">
-      <erro6 img="selecao-roxo.png" x="480" y="245" touch="erro6"/>
-    </agent>
-    <agent img="selecao-inv.png" x="415" y="260" width="30" height="30" on-touch="erro7">
-      <erro7 img="selecao-roxo.png" x="415" y="260" touch="erro7"/>
-    </agent>
-    <agent img="menu-button.png" x="10" y="5" width="80" height="40" on-touch="_GOTO_PAGE:1"></agent>
-  </page>
-
-  <page background="over.png">
-    
-    <agent img="FASE3a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
-      <doisCoracoes img="FASE3b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
-      <umCoracao img="FASE3c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
-    </agent>
-
-    <agent img="selecao-inv.png" x="369" y="425" width="80" height="67" drop-zone="restore"> 
-    	
-      <restore img="FASE3a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes"/>
-      <doisCoracoes img="FASE3b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
-      <umCoracao img="FASE3c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
-    </agent>
-
-    <agent img="coração.png" x="208" y="425" width="83" height="67" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
-    	
-      <lived x="-5000" />
-    </agent> 
-      
-    <agent img="selecao-inv.png" x="450" y="318" width="30" height="30" on-touch="erro1">
-      <erro1 img="selecao-azul.png" x="450" y="318" touch="erro1"/>
-    </agent>
-    <agent img="selecao-inv.png" x="395" y="285" width="30" height="30" on-touch="erro2">
-      <erro2 img="selecao-azul.png" x="395" y="285" touch="erro2"/>
-    </agent>
-    <agent img="selecao-inv.png" x="450" y="100" width="30" height="30" on-touch="erro3">
-      <erro3 img="selecao-azul.png"  x="450" y="100" touch="erro3"/>
-    </agent> 
-    <agent img="selecao-inv.png" x="415" y="190" width="30" height="30" on-touch="erro4">
-      <erro4 img="selecao-azul.png" x="415" y="190" touch="erro4"/>
-    </agent>
-    <agent img="selecao-inv.png" x="380" y="180" width="30" height="30" on-touch="erro5">
-      <erro5 img="selecao-azul.png" x="380" y="180" touch="erro5"/>
-    </agent>
-    <agent img="selecao-inv.png" x="285" y="282" width="30" height="30" on-touch="erro6">
-      <erro6 img="selecao-azul.png" x="285" y="282" touch="erro6"/>
-    </agent>
-    <agent img="selecao-inv.png" x="300" y="130" width="30" height="30" on-touch="erro7">
-      <erro7 img="selecao-azul.png" x="300" y="130" touch="erro7"/>
-    </agent>
-    <agent img="menu-button.png" x="10" y="5" width="80" height="40" on-touch="_GOTO_PAGE:1"></agent>
-  </page>
-
-  <page background="over.png">
-    <agent img="over.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:1"/>
-  </page>
-
-
-    
+    <page background="menu.png">
+        <agent text="Jogo dos 7 Erros" color="white" x="100" y="450" font-size="35"/>
+        <agent text="FASE 1" color="white" x="190" y="320" font-size="45" on-touch="_GOTO_PAGE:2"/>
+        <agent text="FASE 2" color="white" x="190" y="250" font-size="45" on-touch="_GOTO_PAGE:3"/>
+        <agent text="FASE 3" color="white" x="190" y="180" font-size="45" on-touch="_GOTO_PAGE:4"/>
+    </page>
+    <page background="over.png">
+        <agent img="FASE1a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
+            <doisCoracoes img="FASE1b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
+            <umCoracao img="FASE1c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
+        </agent>
+        <agent img="selecao-inv.png" x="369" y="425" width="80" height="67" drop-zone="restore">
+            <restore img="FASE1a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes"/>
+            <doisCoracoes img="FASE1b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
+            <umCoracao img="FASE1c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
+        </agent>
+        <agent img="coração.png" x="208" y="425" width="83" height="67" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
+            <lived x="-5000"/>
+        </agent>
+        <agent img="selecao-inv.png" x="350" y="270" width="30" height="30" on-touch="erro1">
+            <erro1 img="selecao.png" x="350" y="270" touch="erro1"/>
+        </agent>
+        <agent img="selecao-inv.png" x="425" y="229" width="30" height="30" on-touch="erro2">
+            <erro2 img="selecao.png" x="425" y="229" touch="erro2"/>
+        </agent>
+        <agent img="selecao-inv.png" x="287" y="65" width="30" height="30" on-touch="erro3">
+            <erro3 img="selecao.png" x="287" y="65" touch="erro3"/>
+        </agent>
+        <agent img="selecao-inv.png" x="354" y="110" width="30" height="30" on-touch="erro4">
+            <erro4 img="selecao.png" x="354" y="110" touch="erro4"/>
+        </agent>
+        <agent img="selecao-inv.png" x="312" y="225" width="30" height="30" on-touch="erro5">
+            <erro5 img="selecao.png" x="312" y="225" touch="erro5"/>
+        </agent>
+        <agent img="selecao-inv.png" x="465" y="330" width="30" height="30" on-touch="erro6">
+            <erro6 img="selecao.png" x="465" y="330" touch="erro6"/>
+        </agent>
+        <agent img="selecao-inv.png" x="283" y="96" width="30" height="30" on-touch="erro7">
+            <erro7 img="selecao.png" x="283" y="96" touch="erro7"/>
+        </agent>
+        <agent img="menu-button.png" x="10" y="5" width="80" height="40" on-touch="_GOTO_PAGE:1"></agent>
+    </page>
+    <page background="over.png">
+        <agent img="FASE2a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
+            <doisCoracoes img="FASE2b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
+            <umCoracao img="FASE2c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
+        </agent>
+        <agent img="selecao-inv.png" x="369" y="425" width="80" height="67" drop-zone="restore">
+            <restore img="FASE2a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes"/>
+            <doisCoracoes img="FASE2b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
+            <umCoracao img="FASE2c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
+        </agent>
+        <agent img="coração.png" x="208" y="425" width="83" height="67" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
+            <lived x="-5000"/>
+        </agent>
+        <agent img="selecao-inv.png" x="310" y="330" width="30" height="30" on-touch="erro1">
+            <erro1 img="selecao-roxo.png" x="310" y="330" touch="erro1"/>
+        </agent>
+        <agent img="selecao-inv.png" x="360" y="300" width="30" height="30" on-touch="erro2">
+            <erro2 img="selecao-roxo.png" x="360" y="300" touch="erro2"/>
+        </agent>
+        <agent img="selecao-inv.png" x="340" y="260" width="30" height="30" on-touch="erro3">
+            <erro3 img="selecao-roxo.png" x="340" y="260" touch="erro3"/>
+        </agent>
+        <agent img="selecao-inv.png" x="275" y="220" width="30" height="30" on-touch="erro4">
+            <erro4 img="selecao-roxo.png" x="275" y="220" touch="erro4"/>
+        </agent>
+        <agent img="selecao-inv.png" x="420" y="180" width="30" height="30" on-touch="erro5">
+            <erro5 img="selecao-roxo.png" x="420" y="180" touch="erro5"/>
+        </agent>
+        <agent img="selecao-inv.png" x="480" y="245" width="30" height="30" on-touch="erro6">
+            <erro6 img="selecao-roxo.png" x="480" y="245" touch="erro6"/>
+        </agent>
+        <agent img="selecao-inv.png" x="415" y="260" width="30" height="30" on-touch="erro7">
+            <erro7 img="selecao-roxo.png" x="415" y="260" touch="erro7"/>
+        </agent>
+        <agent img="menu-button.png" x="10" y="5" width="80" height="40" on-touch="_GOTO_PAGE:1"></agent>
+    </page>
+    <page background="over.png">
+        <agent img="FASE3a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes">
+            <doisCoracoes img="FASE3b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
+            <umCoracao img="FASE3c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
+        </agent>
+        <agent img="selecao-inv.png" x="369" y="425" width="80" height="67" drop-zone="restore">
+            <restore img="FASE3a.png" x="0" y="0" width="500" height="500" on-touch="doisCoracoes"/>
+            <doisCoracoes img="FASE3b.png" x="0" y="0" width="500" height="500" on-touch="umCoracao" touch="tresCoracoes"/>
+            <umCoracao img="FASE3c.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:5" touch="doisCoracoes"/>
+        </agent>
+        <agent img="coração.png" x="208" y="425" width="83" height="67" draggable="true" on-drop="restore" on-zone="lived" on-trigger="lived">
+            <lived x="-5000"/>
+        </agent>
+        <agent img="selecao-inv.png" x="450" y="318" width="30" height="30" on-touch="erro1">
+            <erro1 img="selecao-azul.png" x="450" y="318" touch="erro1"/>
+        </agent>
+        <agent img="selecao-inv.png" x="395" y="285" width="30" height="30" on-touch="erro2">
+            <erro2 img="selecao-azul.png" x="395" y="285" touch="erro2"/>
+        </agent>
+        <agent img="selecao-inv.png" x="450" y="100" width="30" height="30" on-touch="erro3">
+            <erro3 img="selecao-azul.png" x="450" y="100" touch="erro3"/>
+        </agent>
+        <agent img="selecao-inv.png" x="415" y="190" width="30" height="30" on-touch="erro4">
+            <erro4 img="selecao-azul.png" x="415" y="190" touch="erro4"/>
+        </agent>
+        <agent img="selecao-inv.png" x="380" y="180" width="30" height="30" on-touch="erro5">
+            <erro5 img="selecao-azul.png" x="380" y="180" touch="erro5"/>
+        </agent>
+        <agent img="selecao-inv.png" x="285" y="282" width="30" height="30" on-touch="erro6">
+            <erro6 img="selecao-azul.png" x="285" y="282" touch="erro6"/>
+        </agent>
+        <agent img="selecao-inv.png" x="300" y="130" width="30" height="30" on-touch="erro7">
+            <erro7 img="selecao-azul.png" x="300" y="130" touch="erro7"/>
+        </agent>
+        <agent img="menu-button.png" x="10" y="5" width="80" height="40" on-touch="_GOTO_PAGE:1"></agent>
+    </page>
+    <page background="over.png">
+        <agent img="over.png" x="0" y="0" width="500" height="500" on-touch="_GOTO_PAGE:1"/>
+    </page>
 </fable>
